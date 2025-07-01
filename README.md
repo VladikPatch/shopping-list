@@ -1,16 +1,31 @@
-# shopping_list_app
+# Shopping List App
 
-A new Flutter project.
+Shopping List App is a Flutter project developed while following the course  
+*Flutter & Dart – The Complete Guide [2025 Edition]* by Maximilian Schwarzmüller.
+
+This app allows users to add, manage, and delete shopping list items. All items are stored in Firebase, enabling real-time synchronization. Users can enter a name, quantity, and category for each item. The app provides a simple and intuitive interface for tracking items.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get started with this project, make sure you have Flutter installed and set up Firebase for your own project.  
+Clone this repository and run the app on your preferred device or emulator.
 
-A few resources to get you started if this is your first Flutter project:
+> ⚠️ Note: This app uses Firebase. For privacy and security reasons, the Firebase config files are excluded from the repository.  
+> You must [create your own Firebase project](https://firebase.google.com/) and add the required config files to:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `android/app/google-services.json`
+- `ios/Runner/GoogleService-Info.plist`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Alternatively, you can use another backend of your choice.
+
+## Features
+
+- Add shopping items with name, quantity, and category  
+- View the full list of items  
+- Delete items individually  
+- Realtime data sync using Firebase  
+
+## Credits
+
+This project was created following the comprehensive course  
+*Flutter & Dart – The Complete Guide [2025 Edition]* by Maximilian Schwarzmüller
